@@ -6,7 +6,7 @@ const app = express();
 const port = 3000;
 
 app.get("/", (req, res) => res.send("Hello World!"));
-//database.connect();
+database.connect();
 const loginRouter = require("./Routes/auth.login.js");
 app.use("/auth", loginRouter);
 

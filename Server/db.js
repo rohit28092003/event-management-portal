@@ -3,7 +3,7 @@ const { MongoClient } = require("mongodb");
 
 // Replace the uri string with your connection string.
 
-const client = new MongoClient(process.env.URI, { useNewUrlParser: true, useUnifiedTopology: true });
+const client = new MongoClient(process.env.URI);
 
 function connect() {
     client.connect()
