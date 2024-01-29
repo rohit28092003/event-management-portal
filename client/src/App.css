@@ -43,12 +43,12 @@
   box-sizing: border-box;
 }
 
-body {
-  background: #8758ff;
+body{
+   background-color: #8b406d;;
   display: flex;
   justify-content: center;
   align-items: center;
-}
+} 
 
 .App {
   text-align: center;
