@@ -1,0 +1,183 @@
+nav{
+    width:100%;
+    padding:.5rem;
+    height:15%;
+    background-color: #6c2f54;
+    color: white;
+    position:sticky;
+    top:0%;
+    // opacity:0.4;
+    z-index: 10;
+    overflow: hidden;
+
+    h1{
+        text-transform: lowercase;
+    }
+    main{
+        padding-top: .8rem;
+        width:100%;
+        display: flex;
+        align-items: flex-start; 
+        flex-direction: row; 
+        justify-items: flex-end;
+
+      
+        .container{
+            display: flex;
+           justify-content: flex-start; 
+           align-items: flex-start; 
+           
+        
+           
+           >div{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-left: 1rem;
+           
+           }   
+          //  .star{
+          //   padding-left: 0;
+          //  }
+          
+        }
+
+        .container2{
+            width: 80%;   
+            display: flex;
+            flex-direction: row;
+            justify-content:flex-end; 
+            // gap: .2rem;
+           
+            
+            div{
+                display: flex;
+                justify-content:flex-end;
+                padding-right: 1rem;
+               } 
+          
+               
+        }
+        
+            
+
+
+     
+        
+        
+
+        }
+        
+        .button-6 {
+      
+            align-items: center;
+            background-color: #FFFFFF;
+            border: 1px solid rgba(0, 0, 0, 0.1);
+            border-radius: .25rem;
+            box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+            box-sizing: border-box;
+            color: rgba(0, 0, 0, 0.85);
+            cursor: pointer;
+            display: inline-flex;
+            font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+            font-size: 16px;      
+            font-weight: 600;
+            justify-content: center;
+            line-height: 1;
+            margin: 0;
+            min-height: 2rem;
+            margin-top: -.5rem;
+            padding: calc(.6rem - 1px) calc(1.2rem - 3px);
+            position: relative;
+            text-decoration: none;
+            transition: all 250ms;
+            user-select: none;
+            -webkit-user-select: none;
+            touch-action: manipulation;
+            vertical-align: baseline;
+            width: auto;
+        }
+          
+          .button-6:hover,
+          .button-6:focus {
+            border-color: rgba(0, 0, 0, 0.15);
+            box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+            color: rgba(0, 0, 0, 0.65);
+          }
+          
+          .button-6:hover {
+            transform: translateY(-1px);
+          }
+          
+          .button-6:active {
+            background-color: #F0F0F1;
+            border-color: rgba(0, 0, 0, 0.15);
+            box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+            color: rgba(0, 0, 0, 0.65);
+            transform: translateY(0);
+          }
+         input[type="text"]{ 
+          background-color: #6c2f54;
+          height: 36px;
+          border-radius: 4px;
+          padding-left: 12px;
+          font-size: 25px;
+          font-weight: normal;
+          transition: border-color 150ms ease-in-out 0s;
+          outline: none;
+          color: white;
+          padding-right: 12px;
+          margin-top: -.3rem;
+          :hover{
+              box-shadow: rgb(231 238 236) 0px 0px 0px 3px;
+          }
+        }
+ }
+
+   
+  @media screen and (max-width:600px) {
+
+    nav{
+      width:100%;
+      display: flex;
+      flex-direction: row;
+      padding-left:0;
+    
+    main{
+      .container{
+        width: 15%;
+        display: flex;
+        flex-direction: row;
+        // justify-content: center;
+       
+     
+        >div{
+         padding-left: 1rem;
+        }
+      
+      }
+      .container2{
+        // width: 20%;
+        margin-top: 3rem;
+        display: flex;
+        flex-direction: row;
+        justify-content:flex-start;
+        margin-left: -3rem;
+      }
+     
+    }
+    .button-6{
+      font-size: 25px;
+      padding:4px 10px 4px;
+            
+   }
+
+
+  
+  }
+  // .icon{
+  //   size:23px;
+  // }
+
+  
+  }
