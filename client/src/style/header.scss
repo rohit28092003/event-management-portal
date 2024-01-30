@@ -1,3 +1,8 @@
+body{
+  background: #6c2f54e2;
+}
+
+
 nav{
     width:100%;
     padding:.5rem;
@@ -80,7 +85,7 @@ nav{
             cursor: pointer;
             display: inline-flex;
             font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
-            font-size: 16px;      
+            font-size: 10px;      
             font-weight: 600;
             justify-content: center;
             line-height: 1;
@@ -121,7 +126,7 @@ nav{
           height: 36px;
           border-radius: 4px;
           padding-left: 12px;
-          font-size: 25px;
+          font-size: 16px;
           font-weight: normal;
           transition: border-color 150ms ease-in-out 0s;
           outline: none;
@@ -137,11 +142,17 @@ nav{
    
   @media screen and (max-width:600px) {
 
+    .big-div{
+      display: flex;
+      justify-content: space-between;
+    }
+   
     nav{
       width:100%;
       display: flex;
       flex-direction: row;
       padding-left:0;
+      
     
     main{
       .container{
@@ -156,21 +167,24 @@ nav{
         }
       
       }
+
+      
       .container2{
         // width: 20%;
-        margin-top: 3rem;
+        // margin-top: 3rem;
         display: flex;
         flex-direction: row;
-        justify-content:flex-start;
-        margin-left: -3rem;
+        justify-content:flex-end;
+        margin-top: 4px;
+        // margin-left: -3rem;
       }
      
     }
-    .button-6{
-      font-size: 25px;
-      padding:4px 10px 4px;
+  //   .button-6{
+  //     font-size: 25px;
+  //     padding:4px 10px 4px;
             
-   }
+  //  }
 
 
   
@@ -179,5 +193,69 @@ nav{
   //   size:23px;
   // }
 
+  .TodoWrapper{
+    width: auto;
+   }
+
   
   }
+
+  @media screen and (max-width:450px) {
+.TodoWrapper{
+ width: auto;
+}
+.big-div{
+  display: flex;
+  justify-content: space-between;
+}
+
+nav{
+  width:100%;
+  display: flex;
+  flex-direction: row;
+  padding-left:0;
+  
+
+main{
+  .container{
+    width: 10%;
+    display: flex;
+    flex-direction: row;
+    // justify-content: center;
+   
+ 
+    >div{
+     padding-left: 1rem;
+    }
+  
+  }
+
+  
+  .container2{
+    // width: 20%;
+    // margin-top: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+    margin-top: 4px;
+    // margin-left: -3rem;
+  }
+ 
+}
+//   .button-6{
+//     font-size: 25px;
+//     padding:4px 10px 4px;
+        
+//  }
+
+
+
+}
+// .icon{
+//   size:23px;
+// }
+
+
+
+  }
+

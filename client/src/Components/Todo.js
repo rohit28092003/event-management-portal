@@ -10,8 +10,8 @@ const Todo = ({task, toggleComplete, deleteTodo,editTodo}) => {
       <div>
          {/* <FontAwesomeIcon icon={ faPenToSquare } />
          <FontAwesomeIcon icon={ faTrash } /> */}
-         <button onClick={() => editTodo(task.id)}>Edit</button>
-         <button onClick={() => deleteTodo(task.id)}>Delete</button>
+         <button class="edbtn" onClick={() => editTodo(task.id)}>Edit</button>
+         <button class="delbtn" onClick={() => deleteTodo(task.id)}>Delete</button>
       </div>
     </div>
   )
